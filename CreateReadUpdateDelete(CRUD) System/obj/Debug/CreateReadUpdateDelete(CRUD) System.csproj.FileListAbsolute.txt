@@ -1,0 +1,25 @@
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\CreateReadUpdateDelete(CRUD) System.exe.config
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\CreateReadUpdateDelete(CRUD) System.exe
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\CreateReadUpdateDelete(CRUD) System.pdb
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete(CRUD) System.csproj.AssemblyReference.cache
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete_CRUD__System.LoginForm.resources
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete_CRUD__System.Properties.Resources.resources
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete(CRUD) System.csproj.GenerateResource.cache
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete(CRUD) System.csproj.CoreCompileInputs.cache
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete(CRUD) System.exe
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete(CRUD) System.pdb
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete_CRUD__System.ControlWindow.resources
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\MySql.Data.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\Google.Protobuf.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\Zstandard.Net.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\BouncyCastle.Crypto.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\Ubiety.Dns.Core.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\System.Memory.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\System.Buffers.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\K4os.Compression.LZ4.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\K4os.Hash.xxHash.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\System.Numerics.Vectors.dll
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\MySql.Data.xml
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete(CRUD) System.csproj.CopyComplete
