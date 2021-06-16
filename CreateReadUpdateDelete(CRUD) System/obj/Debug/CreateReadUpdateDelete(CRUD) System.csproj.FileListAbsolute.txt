@@ -23,3 +23,6 @@ E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) 
 E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\System.Numerics.Vectors.dll
 E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\bin\Debug\MySql.Data.xml
 E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete(CRUD) System.csproj.CopyComplete
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete_CRUD__System.RegisterWindow.resources
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete_CRUD__System.AdminWindow.resources
+E:\C# projects\CreateReadUpdateDelete(CRUD) System\CreateReadUpdateDelete(CRUD) System\obj\Debug\CreateReadUpdateDelete_CRUD__System.ForgotPassword.resources

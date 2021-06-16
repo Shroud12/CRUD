@@ -13,7 +13,7 @@ namespace CreateReadUpdateDelete_CRUD__System
 {
     public partial class LoginForm : Form
     {
-  
+
         public LoginForm()
         { 
            InitializeComponent();
@@ -31,9 +31,14 @@ namespace CreateReadUpdateDelete_CRUD__System
             {
                 string user_r = reader.GetString("UserName");
                 string pass_r = reader.GetString("Password");
-                if (user == user_r && pass == pass_r)
+                if (user == "Admin" && user == user_r && pass == pass_r)
                 {
-                    MessageBox.Show($"Welcome {user}!");
+                    MessageBox.Show($"Welcome Admin!");
+                    AdminWindow win = new AdminWindow();
+                    win.Show();
+                }
+                else if (user != "Admin" && user == user_r && pass == pass_r)
+                {
                     ControlWindow control = new ControlWindow();
                     control.Show();
                 }
@@ -51,6 +56,20 @@ namespace CreateReadUpdateDelete_CRUD__System
             if (e.KeyChar == 13)
                 buttonLogin.PerformClick();
 
+        }
+
+        
+        private void labelRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RegisterWindow register = new RegisterWindow();
+            register.Show();
+        }
+
+        private void linkForgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            ForgotPassword win = new ForgotPassword();
+            win.Show();
         }
     }
 }

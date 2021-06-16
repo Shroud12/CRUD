@@ -35,6 +35,11 @@ namespace CreateReadUpdateDelete_CRUD__System
             this.labelPhone = new System.Windows.Forms.Label();
             this.labelAssignment = new System.Windows.Forms.Label();
             this.dgv1 = new System.Windows.Forms.DataGridView();
+            this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CLASS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ROLLNO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ASSIGNMENT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PHONE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textName = new System.Windows.Forms.TextBox();
             this.textClass = new System.Windows.Forms.TextBox();
             this.textRoll = new System.Windows.Forms.TextBox();
@@ -49,11 +54,6 @@ namespace CreateReadUpdateDelete_CRUD__System
             this.radio_not = new System.Windows.Forms.RadioButton();
             this.groupStatus = new System.Windows.Forms.GroupBox();
             this.buttonClear = new System.Windows.Forms.Button();
-            this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CLASS = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ROLLNO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ASSIGNMENT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PHONE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonLogout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureMinimize)).BeginInit();
@@ -132,6 +132,46 @@ namespace CreateReadUpdateDelete_CRUD__System
             this.dgv1.Size = new System.Drawing.Size(512, 161);
             this.dgv1.TabIndex = 1;
             this.dgv1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv1_CellMouseClick);
+            // 
+            // NAME
+            // 
+            this.NAME.DataPropertyName = "NAME";
+            this.NAME.HeaderText = "Name";
+            this.NAME.MinimumWidth = 6;
+            this.NAME.Name = "NAME";
+            this.NAME.Width = 125;
+            // 
+            // CLASS
+            // 
+            this.CLASS.DataPropertyName = "CLASS";
+            this.CLASS.HeaderText = "Class";
+            this.CLASS.MinimumWidth = 6;
+            this.CLASS.Name = "CLASS";
+            this.CLASS.Width = 125;
+            // 
+            // ROLLNO
+            // 
+            this.ROLLNO.DataPropertyName = "ROLLNO";
+            this.ROLLNO.HeaderText = "Roll no";
+            this.ROLLNO.MinimumWidth = 6;
+            this.ROLLNO.Name = "ROLLNO";
+            this.ROLLNO.Width = 125;
+            // 
+            // ASSIGNMENT
+            // 
+            this.ASSIGNMENT.DataPropertyName = "ASSIGNMENT";
+            this.ASSIGNMENT.HeaderText = "Assignment Status";
+            this.ASSIGNMENT.MinimumWidth = 6;
+            this.ASSIGNMENT.Name = "ASSIGNMENT";
+            this.ASSIGNMENT.Width = 125;
+            // 
+            // PHONE
+            // 
+            this.PHONE.DataPropertyName = "PHONE";
+            this.PHONE.HeaderText = "Phone ";
+            this.PHONE.MinimumWidth = 6;
+            this.PHONE.Name = "PHONE";
+            this.PHONE.Width = 125;
             // 
             // textName
             // 
@@ -275,46 +315,6 @@ namespace CreateReadUpdateDelete_CRUD__System
             this.buttonClear.UseVisualStyleBackColor = true;
             this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
-            // NAME
-            // 
-            this.NAME.DataPropertyName = "NAME";
-            this.NAME.HeaderText = "Name";
-            this.NAME.MinimumWidth = 6;
-            this.NAME.Name = "NAME";
-            this.NAME.Width = 125;
-            // 
-            // CLASS
-            // 
-            this.CLASS.DataPropertyName = "CLASS";
-            this.CLASS.HeaderText = "Class";
-            this.CLASS.MinimumWidth = 6;
-            this.CLASS.Name = "CLASS";
-            this.CLASS.Width = 125;
-            // 
-            // ROLLNO
-            // 
-            this.ROLLNO.DataPropertyName = "ROLLNO";
-            this.ROLLNO.HeaderText = "Roll no";
-            this.ROLLNO.MinimumWidth = 6;
-            this.ROLLNO.Name = "ROLLNO";
-            this.ROLLNO.Width = 125;
-            // 
-            // ASSIGNMENT
-            // 
-            this.ASSIGNMENT.DataPropertyName = "ASSIGNMENT";
-            this.ASSIGNMENT.HeaderText = "Assignment Status";
-            this.ASSIGNMENT.MinimumWidth = 6;
-            this.ASSIGNMENT.Name = "ASSIGNMENT";
-            this.ASSIGNMENT.Width = 125;
-            // 
-            // PHONE
-            // 
-            this.PHONE.DataPropertyName = "PHONE";
-            this.PHONE.HeaderText = "Phone ";
-            this.PHONE.MinimumWidth = 6;
-            this.PHONE.Name = "PHONE";
-            this.PHONE.Width = 125;
-            // 
             // buttonLogout
             // 
             this.buttonLogout.Location = new System.Drawing.Point(472, 107);
@@ -358,6 +358,9 @@ namespace CreateReadUpdateDelete_CRUD__System
             this.Name = "ControlWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ControlWindow";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ControlWindow_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ControlWindow_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ControlWindow_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureClose)).EndInit();

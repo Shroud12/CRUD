@@ -73,6 +73,16 @@ namespace CreateReadUpdateDelete_CRUD__System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ForgotPassword {
+            get {
+                object obj = ResourceManager.GetObject("ForgotPassword", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap InsideForm {
             get {
                 object obj = ResourceManager.GetObject("InsideForm", resourceCulture);
@@ -96,6 +106,16 @@ namespace CreateReadUpdateDelete_CRUD__System.Properties {
         internal static System.Drawing.Bitmap minimize {
             get {
                 object obj = ResourceManager.GetObject("minimize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Register {
+            get {
+                object obj = ResourceManager.GetObject("Register", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

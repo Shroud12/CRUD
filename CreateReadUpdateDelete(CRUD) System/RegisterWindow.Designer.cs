@@ -1,7 +1,7 @@
 ﻿
 namespace CreateReadUpdateDelete_CRUD__System
 {
-    partial class LoginForm
+    partial class RegisterWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -33,16 +33,14 @@ namespace CreateReadUpdateDelete_CRUD__System
             this.labelPassword = new System.Windows.Forms.Label();
             this.textUsername = new System.Windows.Forms.TextBox();
             this.textPassword = new System.Windows.Forms.TextBox();
-            this.buttonLogin = new System.Windows.Forms.Button();
-            this.labelRegister = new System.Windows.Forms.LinkLabel();
-            this.linkForgot = new System.Windows.Forms.LinkLabel();
+            this.buttonRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelUsername
             // 
             this.labelUsername.AutoSize = true;
             this.labelUsername.BackColor = System.Drawing.Color.Transparent;
-            this.labelUsername.Location = new System.Drawing.Point(60, 250);
+            this.labelUsername.Location = new System.Drawing.Point(100, 250);
             this.labelUsername.Name = "labelUsername";
             this.labelUsername.Size = new System.Drawing.Size(73, 17);
             this.labelUsername.TabIndex = 0;
@@ -52,7 +50,7 @@ namespace CreateReadUpdateDelete_CRUD__System
             // 
             this.labelPassword.AutoSize = true;
             this.labelPassword.BackColor = System.Drawing.Color.Transparent;
-            this.labelPassword.Location = new System.Drawing.Point(60, 300);
+            this.labelPassword.Location = new System.Drawing.Point(100, 300);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(69, 17);
             this.labelPassword.TabIndex = 0;
@@ -60,75 +58,46 @@ namespace CreateReadUpdateDelete_CRUD__System
             // 
             // textUsername
             // 
-            this.textUsername.Location = new System.Drawing.Point(210, 250);
+            this.textUsername.Location = new System.Drawing.Point(200, 250);
             this.textUsername.Name = "textUsername";
-            this.textUsername.Size = new System.Drawing.Size(135, 22);
+            this.textUsername.Size = new System.Drawing.Size(170, 22);
             this.textUsername.TabIndex = 1;
             // 
             // textPassword
             // 
-            this.textPassword.Location = new System.Drawing.Point(210, 300);
+            this.textPassword.Location = new System.Drawing.Point(200, 300);
             this.textPassword.Name = "textPassword";
             this.textPassword.PasswordChar = '*';
-            this.textPassword.Size = new System.Drawing.Size(135, 22);
+            this.textPassword.Size = new System.Drawing.Size(170, 22);
             this.textPassword.TabIndex = 2;
-            this.textPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textPassword_KeyPress);
             // 
-            // buttonLogin
+            // buttonRegister
             // 
-            this.buttonLogin.BackColor = System.Drawing.Color.Transparent;
-            this.buttonLogin.Location = new System.Drawing.Point(210, 365);
-            this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(75, 35);
-            this.buttonLogin.TabIndex = 3;
-            this.buttonLogin.Text = "Login";
-            this.buttonLogin.UseVisualStyleBackColor = false;
-            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
+            this.buttonRegister.Location = new System.Drawing.Point(200, 386);
+            this.buttonRegister.Name = "buttonRegister";
+            this.buttonRegister.Size = new System.Drawing.Size(75, 26);
+            this.buttonRegister.TabIndex = 3;
+            this.buttonRegister.Text = "Register!";
+            this.buttonRegister.UseVisualStyleBackColor = true;
+            this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
-            // labelRegister
-            // 
-            this.labelRegister.AutoSize = true;
-            this.labelRegister.BackColor = System.Drawing.Color.Transparent;
-            this.labelRegister.Location = new System.Drawing.Point(110, 420);
-            this.labelRegister.Name = "labelRegister";
-            this.labelRegister.Size = new System.Drawing.Size(308, 17);
-            this.labelRegister.TabIndex = 4;
-            this.labelRegister.TabStop = true;
-            this.labelRegister.Text = "Do not have an account ? Click here to register!";
-            this.labelRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.labelRegister_LinkClicked);
-            // 
-            // linkForgot
-            // 
-            this.linkForgot.AutoSize = true;
-            this.linkForgot.BackColor = System.Drawing.Color.Transparent;
-            this.linkForgot.Location = new System.Drawing.Point(210, 329);
-            this.linkForgot.Name = "linkForgot";
-            this.linkForgot.Size = new System.Drawing.Size(122, 17);
-            this.linkForgot.TabIndex = 5;
-            this.linkForgot.TabStop = true;
-            this.linkForgot.Text = "Forgot Password?";
-            this.linkForgot.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkForgot_LinkClicked);
-            // 
-            // LoginForm
+            // RegisterWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackgroundImage = global::CreateReadUpdateDelete_CRUD__System.Properties.Resources.Login_screen;
+            this.BackgroundImage = global::CreateReadUpdateDelete_CRUD__System.Properties.Resources.Register;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(482, 453);
-            this.Controls.Add(this.linkForgot);
-            this.Controls.Add(this.labelRegister);
-            this.Controls.Add(this.buttonLogin);
+            this.Controls.Add(this.buttonRegister);
             this.Controls.Add(this.textPassword);
             this.Controls.Add(this.textUsername);
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.labelUsername);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "LoginForm";
+            this.Name = "RegisterWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login Screen";
+            this.Text = "Register Window";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,9 +109,6 @@ namespace CreateReadUpdateDelete_CRUD__System
         private System.Windows.Forms.Label labelPassword;
         private System.Windows.Forms.TextBox textUsername;
         private System.Windows.Forms.TextBox textPassword;
-        private System.Windows.Forms.Button buttonLogin;
-        private System.Windows.Forms.LinkLabel labelRegister;
-        private System.Windows.Forms.LinkLabel linkForgot;
+        private System.Windows.Forms.Button buttonRegister;
     }
 }
-

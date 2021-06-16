@@ -13,6 +13,8 @@ namespace CreateReadUpdateDelete_CRUD__System
 {
     public partial class ControlWindow : Form
     {
+        private bool mouseDown;
+        private Point lastLocation;
         private void displayGrid()
         {
             DB connect = new DB();
@@ -28,6 +30,8 @@ namespace CreateReadUpdateDelete_CRUD__System
         public ControlWindow()
         {
             InitializeComponent();
+            LoginForm wind = new LoginForm();
+            wind.Close();
             displayGrid();
 
         }
@@ -151,7 +155,28 @@ namespace CreateReadUpdateDelete_CRUD__System
 
         private void buttonLogout_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
+        }
+
+        private void ControlWindow_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void ControlWindow_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+                this.Update();
+            }
+        }
+
+        private void ControlWindow_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
         }
     }
 }
